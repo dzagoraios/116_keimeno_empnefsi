@@ -210,10 +210,3 @@ html {
     overflow-y: visible;
   }
 }
-
-@media only screen and (max-height: 393px) {
-  body{
-    transform: scale(0.8); 
-    transform-origin: top-center;
-  }
-}
