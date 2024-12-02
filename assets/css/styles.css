@@ -176,6 +176,7 @@ html {
   }
 }
 
+
 @media (min-aspect-ratio:16/9) and (max-height: 415px) {
   .pageTitle {
     font-size: max(7.5vh, 25.313px);
@@ -208,5 +209,25 @@ html {
 @media (max-aspect-ratio:15.999/9) {
   body {
     overflow-y: visible;
+  }
+}
+
+/*Chenges 02122024*/
+@media (min-aspect-ratio: 16/9) and (max-height: 393.75px) {
+  .pageText {
+    font-size: 3.84vh;
+  }
+  .pageTitle {
+    font-size: 7.5vh;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) and (max-height: 393.75px) {
+  .pageTitle {
+    font-size: 4.21875vw;
+  }
+  
+  .pageText {
+    font-size: 3.84vh;
   }
 }
