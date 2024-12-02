@@ -5,8 +5,8 @@ html {
 #mainView {
   /*min-width: 600px;*/
   /*min-height: 337.5px;*/
-  min-width: 700px;
-  min-height: 393.75px;
+  /* min-width: 700px;
+  min-height: 393.75px; */
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -17,12 +17,14 @@ html {
 }
 
 @media (min-aspect-ratio: 16/9) {
+  html, body {
+    height:100%;
+  }
+
   #mainView {
     /* height: 100vh; */
+    height:100%;
     margin: auto;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
