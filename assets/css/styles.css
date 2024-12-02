@@ -222,11 +222,11 @@ html {
   }
 }
 
-@media (min-aspect-ratio: 16/9) and (max-height: 393.75px) {
+@media (max-aspect-ratio: 15.999/9) and (max-width: 700px) {
   .pageTitle {
     font-size: 4.21875vw;
   }
-  
+
   .pageText {
     font-size: 3.84vh;
   }
