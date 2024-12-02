@@ -22,7 +22,6 @@ html {
     margin: auto;
   }
 }
-}
 
 @media (max-aspect-ratio:15.999/9) {
   #mainView {
