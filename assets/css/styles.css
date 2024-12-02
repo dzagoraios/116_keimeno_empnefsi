@@ -211,9 +211,9 @@ html {
   }
 }
 
-@media only screen and ((max-width: 599px) or ( max-height: 393px)) {
+@media only screen and (max-height: 393px) {
   body{
     transform: scale(0.8); 
-    /*transform-origin: top left;*/
+    transform-origin: top-center;
   }
 }
