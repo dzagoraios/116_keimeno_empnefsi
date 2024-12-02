@@ -212,7 +212,7 @@ html {
   }
 }
 
-/*Chenges 02122024*/
+/*Changes 02122024*/
 @media (min-aspect-ratio: 16/9) and (max-height: 393.75px) {
   .pageText {
     font-size: 3.84vh;
@@ -228,6 +228,6 @@ html {
   }
 
   .pageText {
-    font-size: 2.8125vw;
+    font-size: 2vw;
   }
 }
