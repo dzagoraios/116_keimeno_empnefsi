@@ -19,7 +19,7 @@ html {
 @media (min-aspect-ratio: 16/9) {
   #mainView {
     height: 100vh;
-    height: 100dvh;
+    height: 100%;
     margin: auto;
   }
 }
