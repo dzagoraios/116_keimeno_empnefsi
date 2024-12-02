@@ -18,8 +18,11 @@ html {
 
 @media (min-aspect-ratio: 16/9) {
   #mainView {
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
