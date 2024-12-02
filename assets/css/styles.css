@@ -20,9 +20,15 @@ html {
   #mainView {
     height: 100vh;
     height: 100dvh;
-    height: -webkit-fill-available;
     margin: auto;
   }
+
+  /* Avoid Chrome to see Safari option */
+  @supports (-webkit-touch-callout: none) {
+  body {
+    height: -webkit-fill-available;
+  }
+}
 }
 
 @media (max-aspect-ratio:15.999/9) {
