@@ -20,6 +20,7 @@ html {
   #mainView {
     height: 100vh;
     height: 100dvh;
+    height: -webkit-fill-available;
     margin: auto;
   }
 }
