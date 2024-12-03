@@ -214,18 +214,6 @@ html {
 
 /*Changes 02122024*/
 
-@media (min-aspect-ratio: 16/9) {
-  html, body {
-    height:100%;
-  }
-
-  #mainView {
-    /* height: 100vh; */
-    height:100%;
-    margin: auto;
-  }
-}
-
 
 @media (min-aspect-ratio: 16/9) and (max-height: 480px) {
   .pageText {
